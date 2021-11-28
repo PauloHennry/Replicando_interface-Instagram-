@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    max-width: auto;
+    max-width: auto;
+    font-family: roboto;
+    
+}
+body{
+    background-color:rgb(233, 232, 232);
+    max-width: auto;
+    max-width: auto;
+    font-family: cursive;
+    background-image: url(/img/img_fundo3.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+
+}
+.img_celular{
+    display: grid;
+    flex-flow: row;
+    align-items: center;
+    height: 1000px;
+    width: 50%;
+    float: left;
+    
+    
+}
+.imagem_celular{
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    height: 710px;
+    height: 751px;
+    padding: 0px 10px 250px 18px;
+}
+
+.conten-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    padding-top: 20px;
+    border: 1px solid gray;
+    border-radius: 1%;
+    margin-top: 120px;
+    margin-right: 148px;
+    background: white;
+    box-shadow: rgb(67, 62, 62) 12px 11px 15px;
+}
+.img_conten-1{
+    border-radius: 50%;
+    height: 250px;
+}
+.img_conten-1 img{
+    border-radius: 50%;
+    height: 250px;
+    height: 164px;
+    padding: 29px;
+}
+.links_perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 74px;
+    
+}
+.input{
+    height: 53px;
+    background: linear-gradient(#9253ed, #b9bce1);
+    width: 323px;
+    font-size: 21px;
+    font-family: system-ui;
+    font-weight: 600;
+    border-radius: 11%;
+    color: midnightblue;
+    box-shadow: rgb(114, 112, 112) 6px 6px 8px 2px
+}
+.input:hover{
+    background-color: #b9bce1;
+}
+
+.ancora_perfil1{
+    text-decoration: none;
+    padding: 16px;
+    color: black;
+    font-size: 23px;
+    font-weight: 100;
+    font-family: cursive;
+}
+
+.conten-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 79px;
+    padding-top: 20px;
+    border: 1px solid gray;
+    border-radius: 1%;
+    margin-top: 35px;
+    background: white;
+    margin-right: 147px;
+    box-shadow: rgb(51, 50, 50) 12px 11px 15px;
+}
+.link_conten-2{
+    text-decoration: none;
+    margin: 20px;
+}
+.links_all{
+    font-size: 17px;
+    padding: 7px;
+    margin: 6px;
+    font-family: fangsong;
+    
+}
+p{
+    padding: 4px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0 0 0 40px;
+}
+h4{
+    text-align: center;
+    margin-top: 15px;
+    padding: 0 127px 0px 0;
+    font-size: 24px;
+    font-family: cursive;
+}
+.img_conten-3{
+    display: flex;
+    height: 78px;
+    margin-top: 61px;
+}
+.img_googleplay{
+    margin: 0px 140px 0px 0px;
+    width: 353px;
+    box-shadow: rgb(0, 0, 0) 13px 14px 16px -2px;
+    height: 75px;
+}
+.img_appstore{
+    margin: 0px 50px 0px 0px;
+    width: 380px;
+    box-shadow: black 13px 14px 16px -2px;
+    height: 75px;
+}
